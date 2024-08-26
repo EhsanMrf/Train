@@ -50,19 +50,30 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
     {
         SetBookTitle(bookTitle);
         SetPublishYear(publishYear);
-        AuthorId = authorId;
+        SetAuthorId(authorId);
     }
 
     //invariant
     void SetBookTitle(BookTitle bookTitle)
-
     {
-        BookTitle = bookTitle ?? throw new Exception();
+        if (bookTitle==null)
+            throw new BookTitleInvalidObjectException();
+        
+        BookTitle = bookTitle;
     }
     void SetPublishYear(int publishYear)
     {
         if (publishYear == 0)
-            throw new BookTitleNullException();
+            throw new BookPublishYearException();
+        PublishYear = publishYear;
+    }
+
+    void SetAuthorId(Guid authorId)
+    {
+        if (authorId==Guid.Empty)
+            throw new BookAuthorIdInvalidException();
+        
+        AuthorId=authorId;
     }
     #endregion
 

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|d:\\train\\train\\train\\domain.model.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|solutionrelative:domain.model.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|d:\\train\\train\\train\\domain.model.test\\book\\booktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|solutionrelative:domain.model.test\\book\\booktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\booktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\booktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model.Test\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Domain.Model.Test\\UnitTest1.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model.Test\\UnitTest1.cs",
-              "RelativeToolTip": "Domain.Model.Test\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BookTitle.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookTitle.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\BookTitle.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookTitle.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\BookTitle.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:47:56.406Z",
+              "WhenOpened": "2024-08-26T20:05:56.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookTitle.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model.Test\\Book\\BookTitle.cs",
+              "RelativeDocumentMoniker": "Domain.Model.Test\\Book\\BookTitle.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model.Test\\Book\\BookTitle.cs",
+              "RelativeToolTip": "Domain.Model.Test\\Book\\BookTitle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:50:11.352Z",
               "EditorCaption": ""
             },
             {
@@ -81,25 +94,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookTitle.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookTitle.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\BookTitle.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookTitle.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\BookTitle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:24:46.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Book.cs",
               "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Book.cs",
               "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Book.cs",
               "RelativeToolTip": "Domain.Model\\Model\\Book\\Book.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T19:23:19.658Z",
               "EditorCaption": ""

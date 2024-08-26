@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CFD7F3B8-DE04-4BF2-B87A-C96CA58593EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{69D96BDA-54C0-4CCE-B9D1-B15313949662}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D96BDA-54C0-4CCE-B9D1-B15313949662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D96BDA-54C0-4CCE-B9D1-B15313949662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D96BDA-54C0-4CCE-B9D1-B15313949662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D96BDA-54C0-4CCE-B9D1-B15313949662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69D96BDA-54C0-4CCE-B9D1-B15313949662} = {CFD7F3B8-DE04-4BF2-B87A-C96CA58593EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B05F3F48-A78D-493A-A6B0-DEA783059268}

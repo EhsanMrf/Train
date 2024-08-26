@@ -27,10 +27,10 @@ public class BookTitle : IObjectValue
     void GuardAssessment(string title)
     {
         if (title == null)
-            throw new Exception();
+            throw new BookTitleNullException();
 
         if (title.Length is 2 or < 2)
-            throw new Exception();
+            throw new BookTitleLengthException();
     }
 
 }

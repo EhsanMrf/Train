@@ -62,7 +62,7 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
     void SetPublishYear(int publishYear)
     {
         if (publishYear == 0)
-            throw new Exception();
+            throw new BookTitleNullException();
     }
     #endregion
 

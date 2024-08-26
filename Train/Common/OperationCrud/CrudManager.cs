@@ -2,7 +2,6 @@
 using System.Linq.Expressions;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Common.OperationCrud;
 

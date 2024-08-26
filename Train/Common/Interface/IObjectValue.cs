@@ -11,3 +11,4 @@ public interface IAggregateRoot
 {
 
 }
+public interface IAggregate<T>{}

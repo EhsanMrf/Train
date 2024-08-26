@@ -2,7 +2,7 @@
 
 namespace Domain.Model.Model.Book;
 
-internal class BookTitle : IObjectValue
+public class BookTitle : IObjectValue
 {
     public string Title { get; private set; }
 

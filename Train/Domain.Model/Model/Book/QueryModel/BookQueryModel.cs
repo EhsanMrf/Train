@@ -2,7 +2,8 @@
 
 public class BookQueryModel
 {
-    public string Title { get; set; }
+    public Guid Id { get; set; }
+    public string Title { get; set; } = null!;
     public int PublishYear { get; set; }
-    public Guid AuthorId { get; set; }
+    public string AuthorName { get; set; } = null!;
 }

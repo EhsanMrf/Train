@@ -3,4 +3,4 @@ using Common.Response;
 
 namespace Domain.Model.Model.Book.Query;
 
-public class GetBookByIdQuery :RequestMediator<ServiceResponse<GetBookQuery>>;
+public class GetBookByIdQuery :RequestMediator<ServiceResponse<GetBooksQuery>>;

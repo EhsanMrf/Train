@@ -1,7 +1,6 @@
 ﻿using Common.Entity;
 using Common.Interface;
 using Common.Validator;
-using Domain.Model.Model.Book;
 
 namespace Domain.Model.Model.Author;
 

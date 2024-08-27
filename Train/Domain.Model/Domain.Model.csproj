@@ -14,9 +14,4 @@
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Model\Author\Command\" />
-    <Folder Include="Model\Author\Query\" />
-  </ItemGroup>
-
 </Project>

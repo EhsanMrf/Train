@@ -1,5 +1,6 @@
 ﻿using Common.Entity;
 using Common.Interface;
+using Common.Validator;
 
 namespace Domain.Model.Model.Book;
 
@@ -40,10 +41,6 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
     }
 
 
-
-
-
-
     #region Behavior
 
     void SetData(BookTitle bookTitle, int publishYear, Guid authorId)
@@ -56,22 +53,26 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
     //invariant
     void SetBookTitle(BookTitle bookTitle)
     {
-        if (bookTitle==null)
-            throw new BookTitleInvalidObjectException();
+        ObjectValidator.Instance
+            .RuleFor(bookTitle)
+            .NotNullOrEmpty(new BookTitleInvalidObjectException());
         
         BookTitle = bookTitle;
     }
     void SetPublishYear(int publishYear)
     {
-        if (publishYear == 0)
-            throw new BookPublishYearException();
+        ObjectValidator.Instance
+            .Must(publishYear, x => x == 0,
+                new BookPublishYearException());
+            
         PublishYear = publishYear;
     }
 
     void SetAuthorId(Guid authorId)
     {
-        if (authorId==Guid.Empty)
-            throw new BookAuthorIdInvalidException();
+        ObjectValidator.Instance
+            .Must(authorId, x => x == Guid.Empty,
+                new BookAuthorIdInvalidException());
         
         AuthorId=authorId;
     }

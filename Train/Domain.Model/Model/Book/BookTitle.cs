@@ -1,4 +1,5 @@
 ﻿using Common.Interface;
+using Common.Validator;
 
 namespace Domain.Model.Model.Book;
 
@@ -26,11 +27,11 @@ public class BookTitle : IObjectValue
 
     void GuardAssessment(string title)
     {
-        if (title == null)
-            throw new BookTitleNullException();
-
-        if (title.Length is 2 or < 2)
-            throw new BookTitleLengthException();
+        ObjectValidator.Instance
+            .RuleFor(title)
+            .NotNullOrEmpty(new BookTitleNullException())
+            .Must(title,x=>x.Length is 2 or<2,
+                new BookTitleLengthException());
     }
 
 }

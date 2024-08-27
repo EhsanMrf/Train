@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\command\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\command\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\domain.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\domain.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\command\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\command\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\query\\getbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\query\\getbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\query\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\query\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\query\\getauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\query\\getauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Author.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Author.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Author.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Author\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:46:11.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Domain.Model",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Domain.Model.csproj",
-              "RelativeDocumentMoniker": "Domain.Model\\Domain.Model.csproj",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Domain.Model.csproj",
-              "RelativeToolTip": "Domain.Model\\Domain.Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T20:45:47.898Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -69,6 +59,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateBookCommand.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:27:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBookCommand.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:27:32.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetBookQuery.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:27:17.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetBookByIdQuery.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:27:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAuthorsQuery.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:26:35.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAuthorQuery.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:26:06.278Z",
+              "EditorCaption": ""
             }
           ]
         },

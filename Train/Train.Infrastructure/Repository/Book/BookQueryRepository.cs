@@ -28,6 +28,11 @@ public class BookQueryRepository : IBookQueryRepository
         });
     }
 
+    public async Task<Domain.Model.Model.Book.Book?> Load(Guid id)
+    {
+        return await _repositoryManager.GetById(id);
+    }
+
     public async Task<IEnumerable<BookQueryModel>> GetList()
     {
         return await _repositoryManager.GetList(x => new BookQueryModel()

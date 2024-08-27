@@ -6,5 +6,6 @@ namespace Domain.Model.Model.Book.IRepository;
 public interface IBookQueryRepository : ITransientService
 {
     Task<BookQueryModel?> GetById(Guid id);
+    Task<Book?> Load(Guid id);
     Task<IEnumerable<BookQueryModel>> GetList();
 }

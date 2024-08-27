@@ -69,7 +69,7 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
 
     public async Task<T> GetById(TId id)
     {
-        return await _dbContext.Set<T>().Where(q => q.Id.Equals(id)).FirstOrDefaultAsync();
+        return await _dbContext.Set<T>().Where(q => q.Id.Equals(id)).AsTracking().FirstOrDefaultAsync();
     }
 
     public async Task<TR?> FindById<TR>(TId id,Expression<Func<T, TR>> expression) where TR : class

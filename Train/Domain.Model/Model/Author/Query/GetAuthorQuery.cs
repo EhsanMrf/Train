@@ -1,7 +1,10 @@
-﻿using Common.MediatR;
-using Common.Response;
+﻿using Common.Response;
 using Domain.Model.Model.Author.QueryModel;
+using MediatR;
 
 namespace Domain.Model.Model.Author.Query;
 
-public class GetAuthorByIdQuery:RequestMediator<Guid,ServiceResponse<AuthorQueryModel>>;
+public class GetAuthorByIdQuery : IRequest<ServiceResponse<AuthorQueryModel>>
+{
+    public Guid Id { get; set; }
+}

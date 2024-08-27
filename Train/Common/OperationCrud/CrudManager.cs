@@ -1,7 +1,9 @@
 ﻿using Common.Entity;
 using System.Linq.Expressions;
 using AutoMapper;
+using Common.Response;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Common.OperationCrud;
 
@@ -17,7 +19,7 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
     }
 
 
-    public async Task<bool> Insert(T entity)
+    public async Task<bool> Create(T entity)
     {
         Util.Utils.NotNull(entity);
         entity.CreateDateTime = DateTime.Now;
@@ -48,6 +50,14 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
         return save;
     }
 
+    public async Task<T> Update(object inputEntity)
+    {
+        _dbContext.Update(inputEntity);
+        var save = await _dbContext.SaveChangesAsync()>0;
+        Util.Utils.StateOperation(save);
+        return (T) inputEntity;
+    }
+
     public async Task<bool> DeleteById(TId id)
     {
         var entity = await _dbContext.Set<T>().Where(q => q.Id!.Equals(id)).FirstOrDefaultAsync();
@@ -60,6 +70,18 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
     public async Task<T> GetById(TId id)
     {
         return await _dbContext.Set<T>().Where(q => q.Id.Equals(id)).FirstOrDefaultAsync();
+    }
+
+    public async Task<TR?> FindById<TR>(TId id,Expression<Func<T, TR>> expression) where TR : class
+    {
+        return await _dbContext.Set<T>().Where(q => q.Id.Equals(id))
+            .Select(expression)
+            .AsNoTracking().FirstOrDefaultAsync();
+    }
+
+    public async Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression) where TR : class
+    {
+        return await _dbContext.Set<T>().Select(expression).ToListAsync();
     }
 
     public async Task<bool> HasRecord(Expression<Func<T, bool>> predicate)
@@ -78,12 +100,17 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
 
 public interface ICrudManager<T, in TId, in TDatabase> where T : BaseEntity<TId>  where TDatabase : DbContext
 {
-    Task<bool> Insert(T entity);
+    Task<bool> Create(T entity);
     Task<T> UpdateByIdObject(TId id, object inputEntity);
     Task<bool> UpdateById(TId id, object inputEntity);
+    Task<T> Update(object inputEntity);
     Task<bool> DeleteById(TId id);
     Task<T> GetById(TId id);
-    Task<bool> HasRecord(Expression<Func<T, bool>> predicate);
+    Task<TR?> FindById<TR>(TId id, Expression<Func<T, TR>> expression) where TR : class;
+    Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression) where TR : class;
+
+
+     Task<bool> HasRecord(Expression<Func<T, bool>> predicate);
     Task<TResult?> SelectByPredicate<TResult>(Expression<Func<T, bool>> predicate, Expression<Func<T, TResult>> predicateSelect);
     DbSet<T> GetEntity();
 }

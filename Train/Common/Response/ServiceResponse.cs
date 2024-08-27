@@ -11,7 +11,16 @@ public class ServiceResponse
 }
 public class ServiceResponse<T> : ServiceResponse
 {
-    public T Data { get; set; }
+    public T? Data { get; set; }
+
+    public ServiceResponse()
+    {
+        
+    }
+    public ServiceResponse(T data)
+    {
+        Data = data;
+    }
 
     public static implicit operator ServiceResponse<T>(T data)
     {

@@ -19,6 +19,23 @@ public class Author :BaseEntity<Guid>, IAggregateRoot
         
     }
 
+    public Author(string name)
+    {
+        SetName(name);
+        CreateDateTime = DateTime.Now;
+    }
+
+    public void Update(string name)
+    {
+        SetName(name);
+        UpdateDateTime = DateTime.Now;
+    }
+
+    public void Delete()
+    {
+        IsDeleted = true;
+    }
+
     public void SetName(string name)
     {
         GuardAssessment(name);

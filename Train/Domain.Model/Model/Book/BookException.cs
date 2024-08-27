@@ -1,7 +1,9 @@
-﻿namespace Domain.Model.Model.Book;
+﻿using Common.Exception;
 
-public class BookTitleNullException() : Exception("Title Null");
-public class BookTitleLengthException() : Exception("Title Length");
-public class BookTitleInvalidObjectException() : Exception("Book Title Invalid");
-public class BookPublishYearException() : Exception("Invalid Publish Year");
-public class BookAuthorIdInvalidException() : Exception("Invalid Publish Year");
+namespace Domain.Model.Model.Book;
+
+public class BookTitleNullException() : BaseException("Title Null");
+public class BookTitleLengthException() : BaseException("Title Length");
+public class BookTitleInvalidObjectException() : BaseException("Book Title Invalid");
+public class BookPublishYearException() : BaseException("Invalid Publish Year");
+public class BookAuthorIdInvalidException() : BaseException("Invalid Publish Year");

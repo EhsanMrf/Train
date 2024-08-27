@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Domain.Model\Domain.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MediatR">
+      <HintPath>C:\Users\Ehsan\.nuget\packages\mediatr\12.4.0\lib\net6.0\MediatR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+    </Project>

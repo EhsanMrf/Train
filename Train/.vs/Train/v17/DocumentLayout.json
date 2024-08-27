@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\validator\\iobjectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\validator\\iobjectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\domain.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\domain.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\bookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\bookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\exception\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\exception\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Author.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Author.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Author.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Author\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BaseException.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Exception\\BaseException.cs",
+              "RelativeDocumentMoniker": "Common\\Exception\\BaseException.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Exception\\BaseException.cs",
+              "RelativeToolTip": "Common\\Exception\\BaseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:46:11.34Z",
+              "WhenOpened": "2024-08-27T14:44:21.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Domain.Model",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Domain.Model.csproj",
-              "RelativeDocumentMoniker": "Domain.Model\\Domain.Model.csproj",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Domain.Model.csproj",
-              "RelativeToolTip": "Domain.Model\\Domain.Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T20:45:47.898Z",
+              "Title": "BookException.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookException.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\BookException.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\BookException.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\BookException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:44:03.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IObjectValidator.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Validator\\IObjectValidator.cs",
+              "RelativeDocumentMoniker": "Common\\Validator\\IObjectValidator.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Validator\\IObjectValidator.cs",
+              "RelativeToolTip": "Common\\Validator\\IObjectValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:43:14.066Z",
               "EditorCaption": ""
             },
             {

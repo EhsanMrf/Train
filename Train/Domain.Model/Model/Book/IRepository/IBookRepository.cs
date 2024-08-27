@@ -1,10 +1,10 @@
-﻿using Common.Response;
+﻿using Common.TransientService;
 using Domain.Model.Model.Book.QueryModel;
 
 namespace Domain.Model.Model.Book.IRepository;
 
-public interface IBookQueryRepository
+public interface IBookQueryRepository : ITransientService
 {
-    Task<ServiceResponse<BookQueryModel>> GetById(Guid id);
-    Task<ServiceResponse<DataList<BookQueryModel>>> GetList();
+    Task<BookQueryModel?> GetById(Guid id);
+    Task<IEnumerable<BookQueryModel>> GetList();
 }

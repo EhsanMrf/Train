@@ -1,10 +1,10 @@
 ﻿using Common.Response;
-using Domain.Model.Model.Author.Command;
+using Common.TransientService;
 
 namespace Domain.Model.Model.Author.IRepository;
 
-public interface IAuthorCommandRepository
+public interface IAuthorCommandRepository :ITransientService
 {
-    Task Create(AddAuthorCommand command);
-    Task<ServiceResponse<Author>> Update(UpdateAuthorCommand command);
+    Task Create(Author command);
+    Task<Author> Update(Author command);
 }

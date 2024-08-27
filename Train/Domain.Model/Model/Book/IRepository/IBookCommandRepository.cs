@@ -1,10 +1,9 @@
-﻿using Common.Response;
-using Domain.Model.Model.Book.Command;
+﻿using Common.TransientService;
 
 namespace Domain.Model.Model.Book.IRepository;
 
-public interface IBookCommandRepository
+public interface IBookCommandRepository : ITransientService
 {
-    Task Create(AddBookCommand command);
-    Task<ServiceResponse<Book>> Update(UpdateBookCommand command);
+    Task Create(Book command);
+    Task<Book> Update(Book command);
 }

@@ -1,11 +1,12 @@
 ﻿using Common.Response;
+using Common.TransientService;
 using Domain.Model.Model.Author.QueryModel;
 
 namespace Domain.Model.Model.Author.IRepository;
 
-public interface IAuthorQueryRepository
+public interface IAuthorQueryRepository : ITransientService
 {
-    Task<ServiceResponse<AuthorQueryModel>> GetById(Guid id);
-    Task<ServiceResponse<DataList<AuthorQueryModel>>> GetList();
-    Task<ServiceResponse<DataList<AuthorBookQueryModel>>> GetAuthorBooksById();
+    Task<AuthorQueryModel?> GetById(Guid id);
+    Task<IEnumerable<AuthorQueryModel>> GetList();
+    Task<IEnumerable<AuthorBookQueryModel>> GetAuthorBooksById();
 }

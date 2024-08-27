@@ -8,7 +8,7 @@ namespace Domain.Model.Model.Author;
 public class Author :BaseEntity<Guid>, IAggregateRoot
 {
     public string Name { get; set; }
-    public IEnumerable<Book.Book> Books { get; set; }
+    public IReadOnlyList<Book.Book> Books { get; set; }
 
 
     /// <summary>

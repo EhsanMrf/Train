@@ -45,8 +45,8 @@ public class Author :BaseEntity<Guid>, IAggregateRoot
     {
         ObjectValidator.Instance
             .RuleFor(name)
-            .NotNullOrEmpty(new BookTitleNullException())
+            .NotNullOrEmpty(new AuthorNameNullException())
             .Must(name, x => x.Length is 2 or < 2,
-                new BookTitleLengthException());
+                new AuthorTitleLengthException());
     }
 }

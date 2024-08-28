@@ -2,7 +2,6 @@ using API;
 using API.ProviderExtensions;
 using Application.Service;
 using MediatR;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,10 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.InjectScope();
 
 builder.Services.DatabaseContext(builder.Configuration.GetSection("Connection").Value);
-builder.Services.SingletonCrudManager();
 builder.Services.AddMediatR(typeof(BookService));
-
-builder.Services.BeforeRequestInPipeLine();
 
 var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();

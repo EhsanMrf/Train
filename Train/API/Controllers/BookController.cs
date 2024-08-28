@@ -1,9 +1,7 @@
 ﻿using API.Controllers.ViewModel;
-using Application.Contract.Interface;
 using Common.Response;
 using Common.Response.Bind;
 using Common.Response.Query;
-using Domain.Model.Model.Author.Command;
 using Domain.Model.Model.Book;
 using Domain.Model.Model.Book.Command;
 using Domain.Model.Model.Book.Query;

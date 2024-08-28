@@ -4,7 +4,4 @@ using Infrastructure.Locazation.Book;
 namespace Application.Service.Exception;
 
 public class BookNotFoundServiceException() : BaseException(BookResource.BookNoutFoundService);
-
-
-//public class BookTitleLengthException() : BaseException(BookResource.BookTitleLength);
-// 
+public class BookDuplicateServiceException() : BaseException(BookResource.BookDuplicate);

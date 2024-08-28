@@ -1,5 +1,4 @@
-﻿using Common.OperationCrud;
-using Domain.Model.Model.Author.IRepository;
+﻿using Domain.Model.Model.Author.IRepository;
 using Infrastructure.Database;
 
 namespace Infrastructure.Repository.Author;

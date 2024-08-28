@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Author\AuthorResource.Designer.cs">
+      <DependentUpon>AuthorResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Book\BookResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -15,6 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Author\AuthorResource.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AuthorResource.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Book\BookResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BookResource.Designer.cs</LastGenOutput>

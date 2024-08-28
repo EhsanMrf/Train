@@ -117,25 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BookTitleInvalidObject" xml:space="preserve">
-    <value>آبجکت عنوان را تعریف کنید</value>
+  <data name="AuthorNameNull" xml:space="preserve">
+    <value>نام نویسنده خالی است</value>
   </data>
-  <data name="BookTitleNull" xml:space="preserve">
-    <value>عنوان کتاب خالی است</value>
+  <data name="AuthorNameLength" xml:space="preserve">
+    <value>کاراکتر نام نویسنده باید بیشتر از دو باشد</value>
   </data>
-  <data name="BookTitleLength" xml:space="preserve">
-    <value>کاراکتر عنوان کتاب باید بیشتر از دو باشد</value>
+  <data name="AuthorNoutFoundService" xml:space="preserve">
+    <value>نویسنده ای پیدا نشد</value>
   </data>
-  <data name="BookPublishYear" xml:space="preserve">
-    <value>سال انتشار صحیح وارد نمایید</value>
-  </data>
-  <data name="BookAuthorIdInvalid" xml:space="preserve">
-    <value>نویسنده معتبر وارد کنید</value>
-  </data>
-  <data name="BookNoutFoundService" xml:space="preserve">
-    <value>کتابی پیدا نشد</value>
-  </data>
-  <data name="BookDuplicate" xml:space="preserve">
+  <data name="AuthorDuplicate" xml:space="preserve">
     <value>اطلاعات تکراری است</value>
   </data>
 </root>

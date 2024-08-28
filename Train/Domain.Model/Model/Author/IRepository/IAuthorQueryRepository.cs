@@ -12,4 +12,5 @@ public interface IAuthorQueryRepository : ITransientService
     Task<DataList<AuthorQueryModel>> GetList(DataRequest request);
     Task<DataList<AuthorBookQueryModel>> GetAuthorBooksById(Guid id,DataRequest request);
     Task<Guid?> GetAuthorId(Guid id);
+    Task<bool> HasRecordWithName(Guid id, string name);
 }

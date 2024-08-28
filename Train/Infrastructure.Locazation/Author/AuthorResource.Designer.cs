@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Infrastructure.Locazation.Book {
+namespace Infrastructure.Locazation.Author {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Infrastructure.Locazation.Book {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class BookResource {
+    public class AuthorResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        public BookResource() {
+        public AuthorResource() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Infrastructure.Locazation.Book {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Infrastructure.Locazation.Book.BookResource", typeof(BookResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Infrastructure.Locazation.Author.AuthorResource", typeof(AuthorResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,65 +61,38 @@ namespace Infrastructure.Locazation.Book {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to نویسنده معتبر وارد کنید.
-        /// </summary>
-        public static string BookAuthorIdInvalid {
-            get {
-                return ResourceManager.GetString("BookAuthorIdInvalid", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to اطلاعات تکراری است.
         /// </summary>
-        public static string BookDuplicate {
+        public static string AuthorDuplicate {
             get {
-                return ResourceManager.GetString("BookDuplicate", resourceCulture);
+                return ResourceManager.GetString("AuthorDuplicate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کتابی پیدا نشد.
+        ///   Looks up a localized string similar to کاراکتر نام نویسنده باید بیشتر از دو باشد.
         /// </summary>
-        public static string BookNoutFoundService {
+        public static string AuthorNameLength {
             get {
-                return ResourceManager.GetString("BookNoutFoundService", resourceCulture);
+                return ResourceManager.GetString("AuthorNameLength", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to سال انتشار صحیح وارد نمایید.
+        ///   Looks up a localized string similar to نام نویسنده خالی است.
         /// </summary>
-        public static string BookPublishYear {
+        public static string AuthorNameNull {
             get {
-                return ResourceManager.GetString("BookPublishYear", resourceCulture);
+                return ResourceManager.GetString("AuthorNameNull", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to آبجکت عنوان را تعریف کنید.
+        ///   Looks up a localized string similar to نویسنده ای پیدا نشد.
         /// </summary>
-        public static string BookTitleInvalidObject {
+        public static string AuthorNoutFoundService {
             get {
-                return ResourceManager.GetString("BookTitleInvalidObject", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to کاراکتر عنوان کتاب باید بیشتر از دو باشد.
-        /// </summary>
-        public static string BookTitleLength {
-            get {
-                return ResourceManager.GetString("BookTitleLength", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to عنوان کتاب خالی است.
-        /// </summary>
-        public static string BookTitleNull {
-            get {
-                return ResourceManager.GetString("BookTitleNull", resourceCulture);
+                return ResourceManager.GetString("AuthorNoutFoundService", resourceCulture);
             }
         }
     }

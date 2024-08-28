@@ -46,4 +46,9 @@ public class AuthorQueryRepository(DatabaseContext dbContext) : IAuthorQueryRepo
     {
         return await dbContext.Authors.Select(s => s.Id).FirstOrDefaultAsync(q => q == id);
     }
+
+    public async Task<bool> HasRecordWithName(Guid id,string name)
+    {
+        return await dbContext.Authors.AnyAsync(x => x.Id != id && x.Name.Equals(name));
+    }
 }

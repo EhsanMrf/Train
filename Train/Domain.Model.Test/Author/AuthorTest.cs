@@ -1,4 +1,5 @@
-﻿using Domain.Model.Model.Book;
+﻿using Domain.Model.Model.Author;
+using Domain.Model.Model.Book;
 using FluentAssertions;
 
 namespace Domain.Model.Test.Author;
@@ -11,10 +12,10 @@ public class AuthorTest
     {
         var courser = () =>
         {
-            BookTitle.CreateInstance(null);
+            new Model.Author.Author(null);
         };
 
-        courser.Should().Throw<BookTitleNullException>();
+        courser.Should().Throw<AuthorNameNullException>();
     }
 
     [Fact]
@@ -22,10 +23,10 @@ public class AuthorTest
     {
         var courser = () =>
         {
-            BookTitle.CreateInstance("A");
+            new Model.Author.Author("A");
         };
 
-        courser.Should().Throw<BookTitleLengthException>();
+        courser.Should().Throw<AuthorNameLengthException>();
     }
 
     [Fact]

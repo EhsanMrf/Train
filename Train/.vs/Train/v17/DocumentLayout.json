@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|d:\\train\\train\\train\\application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|solutionrelative:application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,6 +16,10 @@
           "DockedHeight": 200,
           "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -51,14 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\API\\Controllers\\BookController.cs",
-              "RelativeToolTip": "API\\Controllers\\BookController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\AuthorService.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
+              "RelativeToolTip": "Application\\Service\\AuthorService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:09:56.618Z",
+              "WhenOpened": "2024-08-28T14:40:05.034Z",
               "EditorCaption": ""
             }
           ]
@@ -84,74 +80,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "84830a8f-1344-4907-b5f2-0c27f710d7c5",
-        "Display": 0,
-        "X": 45,
-        "Y": 80,
-        "Width": 1496,
-        "Height": 741,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataRequestAttribute.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
-              "RelativeDocumentMoniker": "Common\\Response\\Bind\\DataRequestAttribute.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
-              "RelativeToolTip": "Common\\Response\\Bind\\DataRequestAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T12:48:30.334Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "db2f8bd2-2b5c-4dcb-b2a8-ed7e233db1f9",
-        "Display": 0,
-        "X": -5,
-        "Y": 80,
-        "Width": 1496,
-        "Height": 741,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Filter.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
-              "RelativeDocumentMoniker": "Common\\Response\\Filter.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
-              "RelativeToolTip": "Common\\Response\\Filter.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAewLsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T13:07:31.409Z",
-              "EditorCaption": ""
             }
           ]
         }

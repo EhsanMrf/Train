@@ -13,13 +13,15 @@ public class AuthorService(IAuthorQueryRepository queryRepository, IAuthorComman
 {
     public async Task<bool> Handle(AddAuthorCommand request, CancellationToken cancellationToken)
     {
+        await GuardAssessmentOnDuplicateRecord(Guid.Empty, request.Name);
         return await commandRepository.Create(new Author(request.Name));
     }
 
     public async Task<ServiceResponse<Author>> Handle(UpdateAuthorCommand request, CancellationToken cancellationToken)
     {
         var author = await queryRepository.Load(request.Id);
-        author.ReturnDataOrThrow(new BookNotFoundServiceException());
+        author.ReturnDataOrThrow(new AuthorFoundServiceException());
+        await GuardAssessmentOnDuplicateRecord(author!.Id, request.Name);
         author!.Update(request.Name);
         await commandRepository.Update(author);
         return new ServiceResponse<Author>(author);
@@ -41,5 +43,13 @@ public class AuthorService(IAuthorQueryRepository queryRepository, IAuthorComman
     {
         var authors = await queryRepository.GetAuthorBooksById(request.Id, request.DataRequest);
         return authors.ReturnDataOrInstance();
+    }
+
+    private async Task GuardAssessmentOnDuplicateRecord(Guid id,string name)
+    {
+        var hasRecordWithName = await queryRepository.HasRecordWithName(id, name);
+        if (hasRecordWithName)
+            throw new AuthorServiceException();
+        
     }
 }

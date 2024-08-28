@@ -46,6 +46,6 @@ public class Author :BaseEntity<Guid>, IAggregateRoot
             .RuleFor(name)
             .NotNullOrEmpty(new AuthorNameNullException())
             .Must(name, x => x.Length is 2 or < 2,
-                new AuthorTitleLengthException());
+                new AuthorNameLengthException());
     }
 }

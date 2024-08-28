@@ -1,3 +1,4 @@
+using API;
 using API.ProviderExtensions;
 using Application.Service;
 using MediatR;
@@ -21,6 +22,7 @@ builder.Services.AddMediatR(typeof(BookService));
 builder.Services.BeforeRequestInPipeLine();
 
 var app = builder.Build();
+app.UseMiddleware<ExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

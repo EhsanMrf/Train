@@ -1,9 +1,10 @@
 ﻿using Common.Exception;
+using Infrastructure.Locazation.Book;
 
 namespace Domain.Model.Model.Book;
 
-public class BookTitleNullException() : BaseException("Title Null");
-public class BookTitleLengthException() : BaseException("Title Length");
-public class BookTitleInvalidObjectException() : BaseException("Book Title Invalid");
-public class BookPublishYearException() : BaseException("Invalid Publish Year");
-public class BookAuthorIdInvalidException() : BaseException("Invalid Publish Year");
+public class BookTitleNullException() : BaseException(BookResource.BookTitleNull);
+public class BookTitleLengthException() : BaseException(BookResource.BookTitleLength);
+public class BookTitleInvalidObjectException() : BaseException(BookResource.BookTitleInvalidObject);
+public class BookPublishYearException() : BaseException(BookResource.BookPublishYear);
+public class BookAuthorIdInvalidException() : BaseException(BookResource.BookAuthorIdInvalid);

@@ -1,5 +1,7 @@
 ﻿ using Common.OperationCrud;
-using Domain.Model.Model.Book.IRepository;
+ using Common.Response;
+ using Common.Response.Query;
+ using Domain.Model.Model.Book.IRepository;
 using Domain.Model.Model.Book.QueryModel;
 using Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
@@ -33,7 +35,7 @@ public class BookQueryRepository : IBookQueryRepository
         return await _dbContext.Books.AsTracking().FirstOrDefaultAsync(x => x.Id == id);
     }
 
-    public async Task<IEnumerable<BookQueryModel>> GetList()
+    public async Task<DataList<BookQueryModel>> GetList(DataRequest request)
     {
         return await _dbContext.Books.Select(s => new BookQueryModel
         {
@@ -41,6 +43,6 @@ public class BookQueryRepository : IBookQueryRepository
             Id = s.Id,
             PublishYear = s.PublishYear,
             Title = s.BookTitle.Title
-        }).ToListAsync();
+        }).ToDataSourceResultAsync(request);
     }
 }

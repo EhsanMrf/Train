@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\command\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\command\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\command\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\command\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\query\\getbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\query\\getbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\query\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\query\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\bind\\datarequestmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\bind\\datarequestmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\query\\getauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\query\\getauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\query\\datarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\query\\datarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\query\\transformedpropertyname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\query\\transformedpropertyname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|d:\\train\\train\\train\\train.infrastructure\\repository\\author\\authorqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|solutionrelative:train.infrastructure\\repository\\author\\authorqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|d:\\train\\train\\train\\train.infrastructure\\repository\\book\\bookqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|solutionrelative:train.infrastructure\\repository\\book\\bookqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\irepository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\irepository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\author\\irepository\\iauthorqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\author\\irepository\\iauthorqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,80 +86,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateBookCommand.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\Command\\UpdateBookCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:27:33.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddBookCommand.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\Command\\AddBookCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:27:32.222Z",
+              "Title": "Common",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Common.csproj",
+              "RelativeDocumentMoniker": "Common\\Common.csproj",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Common.csproj",
+              "RelativeToolTip": "Common\\Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T13:52:35.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetBookQuery.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\Query\\GetBookQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\QueryableExtensions.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\QueryableExtensions.cs*",
+              "RelativeToolTip": "Common\\Response\\QueryableExtensions.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwCsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:27:17.762Z",
+              "WhenOpened": "2024-08-28T13:28:21.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetBookByIdQuery.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TransformedPropertyName.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Query\\TransformedPropertyName.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Query\\TransformedPropertyName.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Query\\TransformedPropertyName.cs",
+              "RelativeToolTip": "Common\\Response\\Query\\TransformedPropertyName.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAArwBUAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:27:16.846Z",
+              "WhenOpened": "2024-08-28T13:26:54.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetAuthorsQuery.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Author\\Query\\GetAuthorsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Title": "DataRequestModelBinder.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestModelBinder.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Bind\\DataRequestModelBinder.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestModelBinder.cs",
+              "RelativeToolTip": "Common\\Response\\Bind\\DataRequestModelBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:26:35.424Z",
+              "WhenOpened": "2024-08-28T13:10:56.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAASwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:09:33.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GetAuthorQuery.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Author\\Query\\GetAuthorQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Title": "DataRequest.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Query\\DataRequest.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Query\\DataRequest.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Query\\DataRequest.cs",
+              "RelativeToolTip": "Common\\Response\\Query\\DataRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:26:06.278Z",
+              "WhenOpened": "2024-08-28T12:53:19.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorQueryRepository.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Author\\AuthorQueryRepository.cs",
+              "RelativeDocumentMoniker": "Train.Infrastructure\\Repository\\Author\\AuthorQueryRepository.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Author\\AuthorQueryRepository.cs",
+              "RelativeToolTip": "Train.Infrastructure\\Repository\\Author\\AuthorQueryRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:52:14.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookQueryRepository.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
+              "RelativeDocumentMoniker": "Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
+              "RelativeToolTip": "Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwCUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:52:10.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\IRepository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\IRepository\\IBookRepository.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\IRepository\\IBookRepository.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Book\\IRepository\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:52:00.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthorQueryRepository.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\IRepository\\IAuthorQueryRepository.cs",
+              "RelativeDocumentMoniker": "Domain.Model\\Model\\Author\\IRepository\\IAuthorQueryRepository.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Author\\IRepository\\IAuthorQueryRepository.cs",
+              "RelativeToolTip": "Domain.Model\\Model\\Author\\IRepository\\IAuthorQueryRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:51:53.894Z",
               "EditorCaption": ""
             }
           ]
@@ -161,6 +237,74 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "84830a8f-1344-4907-b5f2-0c27f710d7c5",
+        "Display": 0,
+        "X": 45,
+        "Y": 80,
+        "Width": 1496,
+        "Height": 741,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataRequestAttribute.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "RelativeToolTip": "Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:48:30.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "db2f8bd2-2b5c-4dcb-b2a8-ed7e233db1f9",
+        "Display": 0,
+        "X": -5,
+        "Y": 80,
+        "Width": 1496,
+        "Height": 741,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Filter.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeToolTip": "Common\\Response\\Filter.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAewLsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:07:31.409Z",
+              "EditorCaption": ""
             }
           ]
         }

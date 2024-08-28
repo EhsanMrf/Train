@@ -12,7 +12,6 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
     public int PublishYear { get; private set; }
     public Guid AuthorId { get; set; }
     public Author.Author Author { get; set; }
-
     #endregion
 
 

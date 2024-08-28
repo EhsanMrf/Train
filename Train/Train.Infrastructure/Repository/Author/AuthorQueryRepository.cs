@@ -1,4 +1,6 @@
-﻿using Domain.Model.Model.Author.IRepository;
+﻿using Common.Response;
+using Common.Response.Query;
+using Domain.Model.Model.Author.IRepository;
 using Domain.Model.Model.Author.QueryModel;
 using Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
@@ -21,22 +23,27 @@ public class AuthorQueryRepository(DatabaseContext dbContext) : IAuthorQueryRepo
         return await dbContext.Authors.Where(x => x.Id == id).AsTracking().FirstOrDefaultAsync();
     }
 
-    public async Task<IEnumerable<AuthorQueryModel>> GetList()
+    public async Task<DataList<AuthorQueryModel>> GetList(DataRequest request)
     {
         return await dbContext.Authors.Select(x => new AuthorQueryModel
         {
             Id = x.Id,
             Name = x.Name
-        }).ToListAsync();
+        }).ToDataSourceResultAsync(request);
     }
 
-    public async Task<IEnumerable<AuthorBookQueryModel>> GetAuthorBooksById(Guid id)
+    public async Task<DataList<AuthorBookQueryModel>> GetAuthorBooksById(Guid id,DataRequest request)
     {
-        return await dbContext.Authors.Where(q=>q.Id==id).Select(x => new AuthorBookQueryModel
+         return await dbContext.Authors.Where(q=>q.Id==id).Select(x => new AuthorBookQueryModel
         {
             Id = x.Id,
             Name = x.Name,
             TitleBook = x.Books.Select(s=>s.BookTitle).FirstOrDefault()!.Title
-        }).ToListAsync();
+        }).ToDataSourceResultAsync(request);
+    }
+
+    public async Task<Guid?> GetAuthorId(Guid id)
+    {
+        return await dbContext.Authors.Select(s => s.Id).FirstOrDefaultAsync(q => q == id);
     }
 }

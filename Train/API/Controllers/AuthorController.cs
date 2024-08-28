@@ -1,5 +1,7 @@
 ﻿using API.Controllers.ViewModel;
 using Common.Response;
+using Common.Response.Bind;
+using Common.Response.Query;
 using Domain.Model.Model.Author;
 using Domain.Model.Model.Author.Command;
 using Domain.Model.Model.Author.Query;
@@ -27,10 +29,11 @@ public class AuthorsController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ServiceResponse<DataList<AuthorQueryModel>>> GetList()
+    public async Task<ServiceResponse<DataList<AuthorQueryModel>>> GetList([DataRequest] DataRequest request)
     {
-        return await mediator.Send(new GetAuthorsQuery());
+        return await mediator.Send(new GetAuthorsQuery{DataRequest = request });
     }
+
 
     [HttpGet("{id}")]
     public async Task<ServiceResponse<AuthorQueryModel?>> Get(Guid id)

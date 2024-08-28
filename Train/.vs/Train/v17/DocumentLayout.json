@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|d:\\train\\train\\train\\domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69D96BDA-54C0-4CCE-B9D1-B15313949662}|Domain.Model\\Domain.Model.csproj|solutionrelative:domain.model\\model\\book\\query\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\expressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\expressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE64AE7E-98DC-4963-8733-7A458C892C22}|Application.Contract\\Application.Contract.csproj|d:\\train\\train\\train\\application.contract\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE64AE7E-98DC-4963-8733-7A458C892C22}|Application.Contract\\Application.Contract.csproj|solutionrelative:application.contract\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|d:\\train\\train\\train\\application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|solutionrelative:application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\bind\\datarequestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expressions.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Expressions.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Expressions.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Expressions.cs",
+              "RelativeToolTip": "Common\\Response\\Expressions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T14:06:17.134Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -47,45 +60,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetBookByIdQuery.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "RelativeDocumentMoniker": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "RelativeToolTip": "Domain.Model\\Model\\Book\\Query\\GetBookByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:54:08.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Application.Contract\\Interface\\IBookService.cs",
-              "RelativeDocumentMoniker": "Application.Contract\\Interface\\IBookService.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Application.Contract\\Interface\\IBookService.cs*",
-              "RelativeToolTip": "Application.Contract\\Interface\\IBookService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:53:57.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Application\\Service\\BookService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\BookService.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Application\\Service\\BookService.cs*",
-              "RelativeToolTip": "Application\\Service\\BookService.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:27:40.617Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -110,6 +84,74 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "84830a8f-1344-4907-b5f2-0c27f710d7c5",
+        "Display": 0,
+        "X": 45,
+        "Y": 80,
+        "Width": 1496,
+        "Height": 741,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataRequestAttribute.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "RelativeToolTip": "Common\\Response\\Bind\\DataRequestAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:48:30.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "db2f8bd2-2b5c-4dcb-b2a8-ed7e233db1f9",
+        "Display": 0,
+        "X": -5,
+        "Y": 80,
+        "Width": 1496,
+        "Height": 741,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Filter.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeToolTip": "Common\\Response\\Filter.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAewLsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:07:31.409Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,11 +9,8 @@ using MediatR;
 namespace Application.Contract.Interface;
 
 public interface IBookService :  
-    IRequestHandler<AddBookCommand>,
+    IRequestHandler<AddBookCommand,bool>,
     IRequestHandler<UpdateBookCommand, ServiceResponse<Book>>,
     IRequestHandler<GetBookByIdQuery,ServiceResponse<BookQueryModel?>>,
     IRequestHandler<GetBooksQuery, ServiceResponse<DataList<BookQueryModel>>>,
-    ITransientService
-
-{
-}
+    ITransientService;

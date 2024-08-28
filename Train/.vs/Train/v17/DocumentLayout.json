@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|d:\\train\\train\\train\\application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|solutionrelative:application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,14 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthorService.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\AuthorService.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
-              "RelativeToolTip": "Application\\Service\\AuthorService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:40:05.034Z",
+              "WhenOpened": "2024-08-28T14:46:08.161Z",
               "EditorCaption": ""
             }
           ]

@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|d:\\train\\train\\train\\domain.model.test\\author\\authortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDC7CD0-9C92-437C-B582-A93CD7D81F41}|Domain.Model.Test\\Domain.Model.Test.csproj|solutionrelative:domain.model.test\\author\\authortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CD2346-4537-4BFC-989E-BB02F9E0F908}|Infrastructure.Locazation\\Infrastructure.Locazation.csproj|d:\\train\\train\\train\\infrastructure.locazation\\infrastructure.locazation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{79CD2346-4537-4BFC-989E-BB02F9E0F908}|Infrastructure.Locazation\\Infrastructure.Locazation.csproj|solutionrelative:infrastructure.locazation\\infrastructure.locazation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|d:\\train\\train\\train\\application\\service\\exception\\authorserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|solutionrelative:application\\service\\exception\\authorserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|d:\\train\\train\\train\\application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1468BB-55A4-40B9-B9E4-33C39B7B7C0C}|Application\\Application.csproj|solutionrelative:application\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\providerextensions\\serviceproviderserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\providerextensions\\serviceproviderserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|d:\\train\\train\\train\\train.infrastructure\\repository\\book\\bookqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|solutionrelative:train.infrastructure\\repository\\book\\bookqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|d:\\train\\train\\train\\train.infrastructure\\repository\\author\\authorcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E50E11B6-9A3D-4B11-96E7-22595A21302B}|Train.Infrastructure\\Infrastructure.csproj|solutionrelative:train.infrastructure\\repository\\author\\authorcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorTest.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Domain.Model.Test\\Author\\AuthorTest.cs",
-              "RelativeDocumentMoniker": "Domain.Model.Test\\Author\\AuthorTest.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Domain.Model.Test\\Author\\AuthorTest.cs",
-              "RelativeToolTip": "Domain.Model.Test\\Author\\AuthorTest.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:33:56.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Infrastructure.Locazation",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Infrastructure.Locazation\\Infrastructure.Locazation.csproj",
-              "RelativeDocumentMoniker": "Infrastructure.Locazation\\Infrastructure.Locazation.csproj",
-              "ToolTip": "D:\\Train\\Train\\Train\\Infrastructure.Locazation\\Infrastructure.Locazation.csproj",
-              "RelativeToolTip": "Infrastructure.Locazation\\Infrastructure.Locazation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-28T14:33:40.705Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -100,80 +58,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorServiceException.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Application\\Service\\Exception\\AuthorServiceException.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\Exception\\AuthorServiceException.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Application\\Service\\Exception\\AuthorServiceException.cs",
-              "RelativeToolTip": "Application\\Service\\Exception\\AuthorServiceException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\API\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:32:41.212Z",
+              "WhenOpened": "2024-08-28T14:46:08.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\QueryableExtensions.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\QueryableExtensions.cs",
+              "RelativeToolTip": "Common\\Response\\QueryableExtensions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADgvyQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T14:42:51.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeDocumentMoniker": "Common\\Response\\Filter.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Filter.cs",
+              "RelativeToolTip": "Common\\Response\\Filter.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwCoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T14:44:44.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\AuthorService.cs",
               "ToolTip": "D:\\Train\\Train\\Train\\Application\\Service\\AuthorService.cs",
               "RelativeToolTip": "Application\\Service\\AuthorService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:21:46.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:21:16.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceProviderServiceExtensions.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\ProviderExtensions\\ServiceProviderServiceExtensions.cs",
-              "RelativeDocumentMoniker": "API\\ProviderExtensions\\ServiceProviderServiceExtensions.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\API\\ProviderExtensions\\ServiceProviderServiceExtensions.cs",
-              "RelativeToolTip": "API\\ProviderExtensions\\ServiceProviderServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:21:10.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookQueryRepository.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
-              "RelativeDocumentMoniker": "Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
-              "RelativeToolTip": "Train.Infrastructure\\Repository\\Book\\BookQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:21:08.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthorCommandRepository.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Author\\AuthorCommandRepository.cs",
-              "RelativeDocumentMoniker": "Train.Infrastructure\\Repository\\Author\\AuthorCommandRepository.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Train.Infrastructure\\Repository\\Author\\AuthorCommandRepository.cs",
-              "RelativeToolTip": "Train.Infrastructure\\Repository\\Author\\AuthorCommandRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:21:04.726Z",
+              "WhenOpened": "2024-08-28T14:40:05.034Z",
               "EditorCaption": ""
             }
           ]

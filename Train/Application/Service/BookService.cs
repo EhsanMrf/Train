@@ -5,6 +5,7 @@ using Domain.Model.Model.Book.Command;
 using Domain.Model.Model.Book.IRepository;
 using Domain.Model.Model.Book.Query;
 using Domain.Model.Model.Book.QueryModel;
+using MediatR;
 
 namespace Application.Service;
 
@@ -19,10 +20,10 @@ public class BookService : IBookService
         _queryRepository = queryRepository;
     }
 
-    public async Task Handle(AddBookCommand request, CancellationToken cancellationToken)
+    public async Task<bool> Handle(AddBookCommand request, CancellationToken cancellationToken)
     {
-        await _commandRepository.Create(BookBuilder.Instance()
-            .WithBookTitle(request.BookTitle)
+       return await _commandRepository.Create(BookBuilder.Instance()
+            .WithBookTitle(BookTitle.CreateInstance(request.Title))
             .WithPublishYear(request.PublishYear)
             .WithAuthorId(request.AuthorId)
             .Build());
@@ -34,7 +35,7 @@ public class BookService : IBookService
         if (book==null)
             return new ServiceResponse<Book> {Message = "NotFound"};
 
-        book.Update(request.BookTitle,request.PublishYear,request.AuthorId);
+        book.Update(request.Title,request.PublishYear,request.AuthorId);
         await _commandRepository.Update(book);
         return new ServiceResponse<Book>(book);
     }

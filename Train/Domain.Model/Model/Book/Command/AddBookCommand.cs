@@ -2,4 +2,4 @@
 
 namespace Domain.Model.Model.Book.Command;
 
-public record AddBookCommand(BookTitle BookTitle, int PublishYear,Guid AuthorId):IRequest;
+public record AddBookCommand(string Title, int PublishYear,Guid AuthorId):IRequest<bool>;

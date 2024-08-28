@@ -9,7 +9,7 @@ public class BookConfiguration :IEntityTypeConfiguration<Book>
     public void Configure(EntityTypeBuilder<Book> builder)
     {
         builder.ToTable("Book");
-        builder.Property(x => x.Id).IsUnicode();
+        builder.Property(x => x.Id);
 
         // object value convert
         builder.OwnsOne(x => x.BookTitle, q =>

@@ -6,20 +6,23 @@ namespace Infrastructure.Repository.Author;
 
 public class AuthorCommandRepository : IAuthorCommandRepository
 {
-    private readonly ICrudManager<Domain.Model.Model.Author.Author, Guid, DatabaseContext> _crudManager;
 
-    public AuthorCommandRepository(ICrudManager<Domain.Model.Model.Author.Author, Guid, DatabaseContext> crudManager)
+    private readonly DatabaseContext _databaseContext;
+    public AuthorCommandRepository(DatabaseContext databaseContext)
     {
-        _crudManager = crudManager;
+        _databaseContext = databaseContext;
     }
 
-    public async Task Create(Domain.Model.Model.Author.Author command)
+    public async Task<bool> Create(Domain.Model.Model.Author.Author command)
     {
-        await _crudManager.Create(command);
+        _databaseContext.Authors.Add(command);
+        return await _databaseContext.SaveChangesAsync() > 0;
     }
 
     public async Task<Domain.Model.Model.Author.Author> Update(Domain.Model.Model.Author.Author command)
     {
-        return await _crudManager.Update(command);
+        _databaseContext.Authors.Update(command);
+         await _databaseContext.SaveChangesAsync();
+         return command;
     }
 }

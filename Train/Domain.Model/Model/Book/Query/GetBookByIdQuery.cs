@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Domain.Model.Model.Book.Query;
 
-public class GetBookByIdQuery : IRequest<ServiceResponse<BookQueryModel?>>
+public class GetBookByIdQuery(Guid id) : IRequest<ServiceResponse<BookQueryModel?>>
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = id;
 }

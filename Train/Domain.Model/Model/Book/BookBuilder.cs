@@ -30,7 +30,7 @@ public class BookBuilder
     }
     public Book Build()
     {
-        return new Book(BookTitle, PublishYear, AuthorId);
+        return new Book(BookTitle.Title, PublishYear, AuthorId);
     }
 
 }

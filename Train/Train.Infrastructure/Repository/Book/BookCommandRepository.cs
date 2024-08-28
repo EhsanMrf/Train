@@ -1,27 +1,29 @@
-﻿ using Common.OperationCrud;
-using Common.Response;
-using Domain.Model.Model.Book.IRepository;
+﻿using Domain.Model.Model.Book.IRepository;
 using Infrastructure.Database;
 
 namespace Infrastructure.Repository.Book;
 
 public class BookCommandRepository : IBookCommandRepository
 {
-    private readonly ICrudManager<Domain.Model.Model.Book.Book,Guid,DatabaseContext> _crudManager;
 
-    public BookCommandRepository(ICrudManager<Domain.Model.Model.Book.Book, Guid, DatabaseContext> crudManager)
+    private readonly DatabaseContext _dbContext;
+
+    public BookCommandRepository(DatabaseContext dbContext)
     {
-        _crudManager = crudManager;
+        _dbContext = dbContext;
     }
 
 
-    public async Task Create(Domain.Model.Model.Book.Book command)
+    public async Task<bool> Create(Domain.Model.Model.Book.Book command)
     {
-        await _crudManager.Create(command);
+        _dbContext.Books.Add(command);
+        return await _dbContext.SaveChangesAsync() > 0;
     }
 
     public async Task<Domain.Model.Model.Book.Book> Update(Domain.Model.Model.Book.Book command)
     {
-        return await _crudManager.Update(command);
+        _dbContext.Books.Update(command);
+        await _dbContext.SaveChangesAsync();
+        return command;
     }
 }

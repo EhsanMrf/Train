@@ -9,7 +9,8 @@ public class ManageExceptionBehavior<TRequest, TResponse, TException>
     where TException : Exception where TRequest : IRequest<TResponse> where TResponse : ServiceResponse, new()
 {
 
-    public Task Handle(TRequest request, TException exception, RequestExceptionHandlerState<TResponse> state, CancellationToken cancellationToken)
+    public Task Handle(TRequest request, TException exception, RequestExceptionHandlerState<TResponse> state,
+        CancellationToken cancellationToken)
     {
 
         var response = new TResponse
@@ -23,3 +24,5 @@ public class ManageExceptionBehavior<TRequest, TResponse, TException>
 
         state.SetHandled(response);
         return Task.CompletedTask;
+    }
+}

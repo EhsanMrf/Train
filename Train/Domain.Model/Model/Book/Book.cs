@@ -24,15 +24,15 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
         
     }
 
-    public Book(BookTitle bookTitle,int publishYear,Guid authorId)
+    public Book(string title,int publishYear,Guid authorId)
     {
-        SetData(bookTitle, publishYear, authorId);
+        SetData(title, publishYear, authorId);
         CreateDateTime = DateTime.Now;
     }
 
-    public void Update(BookTitle bookTitle, int publishYear, Guid authorId)
+    public void Update(string title, int publishYear, Guid authorId)
     {
-        SetData(bookTitle, publishYear, authorId);
+        SetData(title, publishYear, authorId);
         UpdateDateTime= DateTime.Now;
     }
 
@@ -44,9 +44,9 @@ public class Book : BaseEntity<Guid>, IAggregateRoot
 
     #region Behavior
 
-    void SetData(BookTitle bookTitle, int publishYear, Guid authorId)
+    void SetData(string title, int publishYear, Guid authorId)
     {
-        SetBookTitle(bookTitle);
+        SetBookTitle(BookTitle.CreateInstance(title));
         SetPublishYear(publishYear);
         SetAuthorId(authorId);
     }

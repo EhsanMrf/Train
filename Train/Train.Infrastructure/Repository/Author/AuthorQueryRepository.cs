@@ -1,48 +1,42 @@
-﻿using Common.OperationCrud;
-using Domain.Model.Model.Author.IRepository;
+﻿using Domain.Model.Model.Author.IRepository;
 using Domain.Model.Model.Author.QueryModel;
 using Infrastructure.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repository.Author;
 
-public class AuthorQueryRepository : IAuthorQueryRepository
+public class AuthorQueryRepository(DatabaseContext dbContext) : IAuthorQueryRepository
 {
-    private readonly ICrudManager<Domain.Model.Model.Author.Author, Guid, DatabaseContext> _crudManager;
-    private readonly ICrudManager<Domain.Model.Model.Book.Book, Guid, DatabaseContext> _bookCrudManager;
-
-    public AuthorQueryRepository(ICrudManager<Domain.Model.Model.Author.Author, Guid, DatabaseContext> crudManager, ICrudManager<Domain.Model.Model.Book.Book, Guid, DatabaseContext> bookCrudManager)
-    {
-        _crudManager = crudManager;
-        _bookCrudManager = bookCrudManager;
-    }
-
-
     public async Task<AuthorQueryModel?> GetById(Guid id)
     {
-        return await _crudManager.FindById(id, x => new AuthorQueryModel
+       return await dbContext.Authors.Where(x => x.Id == id).Select(x => new AuthorQueryModel
         {
             Id = x.Id,
             Name = x.Name
-        });
+        }).AsNoTracking().FirstOrDefaultAsync();
+    }
+
+    public async Task<Domain.Model.Model.Author.Author?> Load(Guid id)
+    {
+        return await dbContext.Authors.Where(x => x.Id == id).AsTracking().FirstOrDefaultAsync();
     }
 
     public async Task<IEnumerable<AuthorQueryModel>> GetList()
     {
-        return await _crudManager.GetList(x => new AuthorQueryModel
+        return await dbContext.Authors.Select(x => new AuthorQueryModel
         {
             Id = x.Id,
             Name = x.Name
-        });
+        }).ToListAsync();
     }
 
-    public async Task<IEnumerable<AuthorBookQueryModel>> GetAuthorBooksById()
+    public async Task<IEnumerable<AuthorBookQueryModel>> GetAuthorBooksById(Guid id)
     {
-        return await _crudManager.GetList(x => new AuthorBookQueryModel
+        return await dbContext.Authors.Where(q=>q.Id==id).Select(x => new AuthorBookQueryModel
         {
             Id = x.Id,
             Name = x.Name,
-            TitleBook =  _bookCrudManager.GetEntity().Where(q=>q.AuthorId==x.Id)
-                .Select(s=>s.BookTitle.Title).FirstOrDefault()
-        });
+            TitleBook = x.Books.Select(s=>s.BookTitle).FirstOrDefault()!.Title
+        }).ToListAsync();
     }
 }

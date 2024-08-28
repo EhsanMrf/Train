@@ -12,9 +12,8 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
     private readonly IMapper _mapper;
     private readonly TDatabase _dbContext;
 
-    public CrudManager(IMapper mapper, TDatabase dbContext)
+    public CrudManager(TDatabase dbContext)
     {
-        _mapper = mapper;
         _dbContext = dbContext;
     }
 
@@ -79,8 +78,11 @@ public class CrudManager<T, TId, TDatabase> : ICrudManager<T,TId,TDatabase> wher
             .AsNoTracking().FirstOrDefaultAsync();
     }
 
-    public async Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression) where TR : class
+    public async Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression, Expression<Func<T, bool>> predicate=null) where TR : class
     {
+        if (predicate!=null)
+            return await _dbContext.Set<T>().Where(predicate).Select(expression).ToListAsync();
+        
         return await _dbContext.Set<T>().Select(expression).ToListAsync();
     }
 
@@ -107,7 +109,7 @@ public interface ICrudManager<T, in TId, in TDatabase> where T : BaseEntity<TId>
     Task<bool> DeleteById(TId id);
     Task<T> GetById(TId id);
     Task<TR?> FindById<TR>(TId id, Expression<Func<T, TR>> expression) where TR : class;
-    Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression) where TR : class;
+    Task<IEnumerable<TR>> GetList<TR>(Expression<Func<T, TR>> expression, Expression<Func<T, bool>> predicate = null) where TR : class;
 
 
      Task<bool> HasRecord(Expression<Func<T, bool>> predicate);

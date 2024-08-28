@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Domain.Model.Model.Author.Query;
 
-public class GetAuthorBooksByAuthorId : IRequest<ServiceResponse<DataList<AuthorBookQueryModel>>>
+public class GetAuthorBooksByAuthorId(Guid id) : IRequest<ServiceResponse<DataList<AuthorBookQueryModel>>>
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = id;
 }

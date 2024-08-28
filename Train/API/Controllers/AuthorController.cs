@@ -42,8 +42,11 @@ public class AuthorsController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("AuthorBooks/{id}")]
-    public async Task<ServiceResponse<DataList<AuthorBookQueryModel>>> GetAuthorBooks(Guid id)
+    public async Task<ServiceResponse<DataList<AuthorBookQueryModel>>> GetAuthorBooks(Guid id, [DataRequest] DataRequest request)
     {
-        return await mediator.Send(new GetAuthorBooksByAuthorId(id));
+        return await mediator.Send(new GetAuthorBooksByAuthorId(id)
+        {
+            DataRequest = request
+        });
     }
 }

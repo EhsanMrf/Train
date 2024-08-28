@@ -106,7 +106,6 @@ public class Filter
             "And" => "and",
             "or" => "||",
             "OR" => "||",
-            // _ =>/* throw new QueryFilterExceptionParameterInvalid()*/
         };
     }
 

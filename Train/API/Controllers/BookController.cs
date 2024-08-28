@@ -1,6 +1,8 @@
 ﻿using API.Controllers.ViewModel;
 using Application.Contract.Interface;
 using Common.Response;
+using Common.Response.Bind;
+using Common.Response.Query;
 using Domain.Model.Model.Author.Command;
 using Domain.Model.Model.Book;
 using Domain.Model.Model.Book.Command;
@@ -28,9 +30,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ServiceResponse<DataList<BookQueryModel>>> GetList()
+        public async Task<ServiceResponse<DataList<BookQueryModel>>> GetList([DataRequest] DataRequest request)
         {
-            return await mediator.Send(new GetBooksQuery());
+            return await mediator.Send(new GetBooksQuery{DataRequest = request });
         }
 
         [HttpGet("{id}")]

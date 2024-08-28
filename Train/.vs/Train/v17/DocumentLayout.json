@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Train\\Train\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\expressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|solutionrelative:common\\response\\expressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|d:\\train\\train\\train\\api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E574CC8-88B0-4915-BDE2-17A7714403D5}|API\\API.csproj|solutionrelative:api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F9F6D5-8CE5-4A6B-B047-3CDF20A707E8}|Common\\Common.csproj|d:\\train\\train\\train\\common\\response\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Expressions.cs",
-              "DocumentMoniker": "D:\\Train\\Train\\Train\\Common\\Response\\Expressions.cs",
-              "RelativeDocumentMoniker": "Common\\Response\\Expressions.cs",
-              "ToolTip": "D:\\Train\\Train\\Train\\Common\\Response\\Expressions.cs",
-              "RelativeToolTip": "Common\\Response\\Expressions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:06:17.134Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -60,6 +47,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Train\\Train\\Train\\API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Train\\Train\\Train\\API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "API\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T14:09:56.618Z",
+              "EditorCaption": ""
             }
           ]
         },
